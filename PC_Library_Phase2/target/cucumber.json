@@ -1,0 +1,47 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-19T13:32:48.870Z",
+        "line": 3,
+        "name": "I can Create AssetType",
+        "description": "",
+        "id": "i-can-perform-crud-operations-for-assettype;i-can-create-assettype",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "I open browser and navigate to the website",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "I login into the application",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTestsPositiveScenarios1"
+          }
+        ]
+      }
+    ],
+    "name": "I can perform CRUD operations for AssetType",
+    "description": "",
+    "id": "i-can-perform-crud-operations-for-assettype",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/CRUD_AssetType.feature",
+    "tags": []
+  }
+]
