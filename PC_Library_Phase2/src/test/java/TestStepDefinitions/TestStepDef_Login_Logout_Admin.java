@@ -24,5 +24,10 @@ public class TestStepDef_Login_Logout_Admin extends TestPage_Login_Logout_Admin 
         clickNoBtn();
 
     }
+    @Then("I navigate to the AssetType Page")
+    public void iNavigateToTheAssetTypePage() throws InterruptedException {
+        Thread.sleep(5000);
+        clickAssetTypeBtn();
+    }
 
 }

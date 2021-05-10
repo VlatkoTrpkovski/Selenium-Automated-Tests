@@ -40,7 +40,7 @@ public class TestPage_Login_Logout_Admin {
 
 
     public void navigateto(){
-        driver.get("http://localhost:3000/");
+        driver.get("http://localhost:3001/");
     }
 
     public void signinbutton() {
@@ -70,6 +70,9 @@ public class TestPage_Login_Logout_Admin {
     }
     public void clickNoBtn() {
         click(this.clickNoBtn);
+    }
+    public void clickAssetTypeBtn(){
+        driver.findElement(By.xpath("/html/body/div[1]/div/div[1]/header/div/div/div/div[1]/div[1]/a[4]")).click();
     }
 
 }
